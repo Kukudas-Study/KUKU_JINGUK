@@ -1,5 +1,5 @@
 def solution(n, lost, reserve):
-    # 여벌 체육복 가저온 학생이 잃어버리면 빌려줄수 없기 때문에
+    # 여벌 체육복 가저온 학생이 잃어버리면 빌려줄수 없기 때문에!
     # 중복되는 수 삭제
     lost2 = set(lost)-set(reserve)
     reserve2 = set(reserve)-set(lost)
